@@ -1,0 +1,84 @@
+body {
+  margin: 0%;
+  background-color: rgb(202, 35, 35);
+
+}
+
+header {
+  height: 80px;
+
+  border-bottom: 5px solid #fff; 
+  
+}
+header h1 {
+
+color: rgba(236, 233, 6, 0.685);
+float: left; 
+width: 69%;
+}
+
+#search {
+display: inline-block;
+margin-top: 30px;
+margin-left: 50px;
+padding-left: 0px;
+
+}
+#social {
+
+  float: right;
+  height: 80%;
+}
+
+#my-top {
+
+margin-top: 10px;
+}
+
+#my-top p{
+
+  display: inline-block;
+  padding-left: 0px;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(244, 244, 248, 0.616);
+  margin-left: 56px;
+  padding-right: 100px;
+  margin-right: 0px;
+  
+
+}
+#top3 {
+color: rgb(0, 0, 0);
+margin-bottom: 30px;
+}
+
+.tit {
+
+border: 2px solid #555;
+width: 350px;
+background-color: #fff;
+
+
+
+}
+
+
+
+
+.anime{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  margin-left: 40px;
+}
+
+footer {
+
+  text-align: center;
+  border: 2px solid white;
+  width: 50%;
+  display: inline-block;
+  margin-left: 360px;
+  
+}
