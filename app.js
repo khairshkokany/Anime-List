@@ -11,7 +11,7 @@ confirm(  qus + no  );
 
  var anime=prompt('attack on titan or tokyo ghoul..!');
 
-// there is a way to change to lower case.
+
 
 
 if(anime=='titan'){
@@ -19,7 +19,7 @@ if(anime=='titan'){
 }else if(anime === 'tokyo ghoul'){
   document.write('<img src="https://ae01.alicdn.com/kf/HTB15dwhNVXXXXbIXXXXq6xXFXXXz/Tokyo-Ghoul-Anime-Kaneki-Ken-120-200CM-Single-layer-Blanket-37481.jpg_Q90.jpg_.webp" width="250px">');
 }else{
-  document.write('<h4> please  write attack or tokyo ghoul</h3>');
+  document.write('<h4> please  write attack or tokyo ghoul</h4>');
 }
 
 
