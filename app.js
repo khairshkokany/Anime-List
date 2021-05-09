@@ -65,6 +65,7 @@
 // -----------this is a new code for me the last one for training -------------------------
 
 
+
 var start = "are you ready for qustions..!"
 confirm(start);
 var anime = prompt('type ur anime please');
@@ -172,6 +173,65 @@ var getLove = function () {
   return narutoResults;
 }
 document.write(getLove());
+
+var start="are you ready for qustions..!"
+confirm (start);
+var anime=prompt('type ur anime please');
+
+if(anime=='attack'){
+  console.log('he will see irin');
+  document.write('</br>');
+  document.write('<img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2021/03/Eren-Founding-Titan-in-Attack-on-Titan-vertical.jpg"width=250px>');
+  
+  document.write('<h3>IRIN</h3>');
+  }else if(anime=='tokyo'){
+  console.log("he will see tokyo");
+  document.write('</br>');
+  document.write('<img src="https://spotlightreport.net/wp-content/uploads/2019/09/tokyo-ghoul-re-review.jpg"width=250px>');
+  document.write('<h3>Kaneki</h3>');
+}else{
+  console.log("ops..! didn't type anything ");
+  document.write('<h3>please type attack or tokyo to see the photos ..!</h3>');
+}
+
+// var start1="if you are +18 you can see the qustions of action anime ..!";
+
+// alert (start1);
+var charc=prompt("type ur best character in ur best anime u chose it  ..!");
+
+while(charc !== "irin"   && charc !== "kaneki"){
+
+charc=prompt("please you must type ur charc (irin if you chose attack on titan or kaneki if you chose tokyo ghoul ..!");  
+}
+
+var request="ok now you can start the qustions of ur  anime and charc ";
+alert(request);
+
+var star = prompt("how many starts do you rate your anime (max. 5 min . 0 ..!")
+
+if (star > 5){
+  star=5;
+}
+
+for (var i=0;i < star;i++){
+  document.write('<img src="https://miro.medium.com/max/612/1*sz3x5iKbBV_iJ2-47CmfIA.jpeg" width=30px;>');
+
+}
+var love = prompt("type 5 to show u some love for visited my page  ..! ")
+if (love > 5){
+  love=5;
+}
+
+for (var j=0;j < love;j++){
+  document.write('</br>');
+  document.write('<img src="https://cdn130.picsart.com/289245025003201.png?type=webp&to=min&r=640" width=35px;>');
+
+}
+
+var thank=("finally , Thank you User ..");
+alert (thank);
+
+
 
 
 
